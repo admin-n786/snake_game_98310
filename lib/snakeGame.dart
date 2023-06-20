@@ -11,10 +11,11 @@ class SnakeGame extends StatefulWidget {
 }
 
 class _SnakeGameState extends State<SnakeGame> {
+
   // Game state variables
   List<int> snakePosition = [45, 65, 85, 105];
   int numberOfSquaresPerRow = 20;
-   int? foodIndex;
+    int? foodIndex;
   var direction = 'right';
   bool gameOver = false;
   var random = Random();
